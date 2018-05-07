@@ -29,7 +29,7 @@ public class OrderItemService {
     }
 
     public boolean addOrderItem(int itemId, int orderId) {
-        // can't add order if there is no such user
+        // can't add orderitem if there is no such order or item
         if (!itemRepository.itemExists(itemId) || !orderRepository.orderExists(orderId))
             return false;
         OrderItem oi = new OrderItem(itemId, orderId);

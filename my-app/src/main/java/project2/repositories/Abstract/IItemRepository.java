@@ -14,6 +14,5 @@ public interface IItemRepository {
     void addItem(Item item);
     void deleteItem(int id);
     void updateItem(int id, Item item);
-    // what should I validate?
     boolean validateItem(Item item);
 }

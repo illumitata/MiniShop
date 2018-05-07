@@ -44,7 +44,6 @@ public class FakeItemRepository implements IItemRepository {
 
     public void deleteItem(int id) {
         items.removeIf(x -> x.getId() == id);
-        // to add: delete also all OrderItems contains id!
     }
 
     public void updateItem(int id, Item item) {

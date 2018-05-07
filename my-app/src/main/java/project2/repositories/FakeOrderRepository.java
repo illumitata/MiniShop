@@ -40,12 +40,10 @@ public class FakeOrderRepository implements IOrderRepository {
 
     public void deleteOrder(int id) {
         orders.removeIf(x -> x.getId() == id);
-        // to add: delete also all OrderItems contains id!
     }
 
     public void deleteCustomerOrders(int customerId) {
         orders.removeIf(x -> x.getCustomerId() == customerId);
-        // to add: delete also all OrderItems contains id!
     }
 
     public boolean validateOrder(Order order) {

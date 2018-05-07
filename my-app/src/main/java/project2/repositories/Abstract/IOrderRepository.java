@@ -12,6 +12,5 @@ public interface IOrderRepository {
     void addOrder(Order order);
     void deleteOrder(int id);
     void deleteCustomerOrders(int customerId);
-    // what should I validate?
     boolean validateOrder(Order order);
 }

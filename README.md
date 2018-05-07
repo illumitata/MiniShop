@@ -2,9 +2,9 @@
 ## Projekt 2 (Maven, JUnit oraz atrapy)
 
 [![Build Status](https://travis-ci.com/TestowanieJAVA2017-2018Gr3/projekt2-illumitata.svg?token=qdCBLxvxg1B2Au4m9zuA&branch=master)](https://travis-ci.com/TestowanieJAVA2017-2018Gr3/projekt2-illumitata)
-
+[ ![Codeship Status for illumitata/MiniShop](https://app.codeship.com/projects/a4f50180-33b8-0136-1ea5-723dda3cee95/status?branch=master)](https://app.codeship.com/projects/288968)
 [![BCH compliance](https://bettercodehub.com/edge/badge/illumitata/MiniShop?branch=master)](https://bettercodehub.com/)
-
+[![HitCount](http://hits.dwyl.io/illumitata/MiniShop.svg)](http://hits.dwyl.io/illumitata/MiniShop)
 
 **Projekt 6** (25 pkt)
 
